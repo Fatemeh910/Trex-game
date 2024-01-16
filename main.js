@@ -1,8 +1,8 @@
-const charectorElement = document.querySelector(".charecter");
+const charecterElement = document.querySelector(".charecter");
 const threeElement = document.querySelector(".block");
 
-document.addEventListener('keyup',(e)=>{
-if(e.key === ' '){
-charectorElement.classList.add("jupmAnimate");
+document.addEventListener('keyup',(e) => {
+if (e.key === " ") {
+ charecterElement.classList.add("jupmAnimate");
 }
 });

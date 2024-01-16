@@ -1,0 +1,1 @@
+const charectorElement = document.querySelector(".charecter")

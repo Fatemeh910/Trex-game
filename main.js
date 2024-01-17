@@ -17,15 +17,17 @@ document.addEventListener("keyup", (e) => {
     }
   });
 
-  //مامیخواهیم فانکشنی هرده میلی ثانیه اجرابشه
+  //چک کن ایا ماباختیم یانه
   const checkCondition = () =>{
     const trexTop = parseInt(window.getComputedStyle(trexElement).top);
     const treeLeft = parseInt(window.getComputedStyle(treeElement).left);
 
     if(treeLeft < 90 && trexTop >= 230){
-    trexElement.style.top = `$(trexTop)px`;
-    treeElement.style.display = 'none';
-    restarPage.classList.add('show-restart-page');
+        trexElement.style.top = `$(trexTop)px`;
+        treeElement.style.display = 'none';
+        restarPage.classList.add('show-restart-page');
+        clearInterval(trexInterval);
     }
   };
-  setInterval(checkCondition, 10);
+//فانکشن چک کالدیز رو هرده ثانیه فراخوانی کن
+  const trexInterval =  setInterval(checkCondition, 10);

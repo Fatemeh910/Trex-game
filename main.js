@@ -1,7 +1,8 @@
+///ELEMENTS
 const trexElement = document.querySelector(".charecter");
 const treeElement = document.querySelector(".block");
 
-
+///JUMP TREX CHARECTER WHEN WE CLICK SPAse BUTTON
 document.addEventListener("keyup", (e) => {
     if (e.key === " ") {
       trexElement.classList.add("jumpAnimate");
@@ -11,3 +12,11 @@ document.addEventListener("keyup", (e) => {
       }, 500);
     }
   });
+
+  //مامیخواهیم فانکشنی هرده میلی ثانیه اجرابشه
+  const checkCondition = () =>{
+    const trexTop = 
+  }
+  setInterval(() => {
+    
+  }, interval);

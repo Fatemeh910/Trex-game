@@ -18,7 +18,7 @@ document.addEventListener("keyup", (e) => {
 });
 
 // CHECK IF WE LOSE OR NOT
-//چگ کن باختیم یانه
+//چک کن باختیم یانه
 const checkCondition = () => {
   const trexTop = parseInt(window.getComputedStyle(trexElement).top);
   const treeLeft = parseInt(window.getComputedStyle(treeElement).left);

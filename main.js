@@ -4,7 +4,7 @@ const treeElement = document.querySelector(".block");
 
 //REASTART PAGE ELEMENTs
 const restartPage = document.querySelector('.restart-page');
-const restarButton = document.querySelector('.restart-btn');
+const restartButton = document.querySelector('.restart-btn');
 
 ///JUMP TREX CHARECTER WHEN WE CLICK SPAse BUTTON
 document.addEventListener("keyup", (e) => {

@@ -16,7 +16,8 @@ document.addEventListener("keyup", (e) => {
   //مامیخواهیم فانکشنی هرده میلی ثانیه اجرابشه
   const checkCondition = () =>{
     const trexTop = parseInt(window.getComputedStyle(trexElement).top);
-  }
+    const treeLeft = parseInt(window.getComputedStyle(treeElement).left);
+  };
   setInterval(() => {
     
   }, interval);
